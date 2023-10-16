@@ -1,6 +1,5 @@
 .container__small-card{
   width: 40vw;
-
   display: flex;
   flex-direction: row;
 }
@@ -8,8 +7,10 @@
 .small-card__photo > img{
   width: 200px;
   min-width: 200px;
+  max-height: 100px;
   margin-right: 20px;
-  height: 100%;
+  border: 1px solid red;
+  object-fit: cover;
 }
 
 .small-card__title{

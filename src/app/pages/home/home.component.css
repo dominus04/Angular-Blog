@@ -5,6 +5,12 @@
   justify-content:space-evenly;
 }
 
+.articles__main{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .articles__others{
   display: flex;
   flex-direction: column;
