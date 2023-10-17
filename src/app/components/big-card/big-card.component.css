@@ -26,6 +26,6 @@
 }
 
 .big-card__photo > img{
-  width: 100%;
+  width: 400px;
   min-width: 400px;
 }
